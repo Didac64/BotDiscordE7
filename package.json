@@ -15,6 +15,7 @@
     "form-data": "^4.0.0",
     "multer": "^1.4.5-lts.1",
     "sqlite3": "^5.2.8",
+    "dotenv": "^17.2.3",
     "tesseract.js": "^4.2.2"
   },
   "engines": {
