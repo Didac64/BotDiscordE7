@@ -2,7 +2,7 @@
  * app.js - Epic7 Build Analyzer Discord Bot
  * All-in-one: Express server + SQLite + OCR + Epic7DB + Discord
  */
-
+require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
