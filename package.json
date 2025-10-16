@@ -2,9 +2,9 @@
   "name": "epic7-build-analyzer",
   "version": "1.0.0",
   "description": "Discord bot and backend to analyze Epic Seven character builds from screenshots using OCR and Epic7DB.",
-  "main": "app.js",
+  "main": "App.js",
   "scripts": {
-  "start": "node app.js"
+  "start": "node App.js"
   },
   "author": "KenjiKytsuji",
   "license": "MIT",
