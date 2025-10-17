@@ -10,6 +10,8 @@ import fetch from "node-fetch";
 import sqlite3 from "sqlite3";
 import { open } from "sqlite";
 import Tesseract from "tesseract.js";
+import { fileURLToPath } from "url";
+import path from "path";
 import {
   Client,
   GatewayIntentBits,
@@ -21,6 +23,10 @@ import {
 import dotenv from "dotenv";
 
 dotenv.config();
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 
 // ⚠️ Do not modify this block
 const PORT = process.env.PORT || 3000;
