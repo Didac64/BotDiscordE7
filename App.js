@@ -10,17 +10,11 @@ import fetch from "node-fetch";
 import sqlite3 from "sqlite3";
 import { open } from "sqlite";
 import Tesseract from "tesseract.js";
+import dotenv from "dotenv";
+import {
+  Client, GatewayIntentBits, AttachmentBuilder, EmbedBuilder, REST, Routes } from "discord.js";
 import { fileURLToPath } from "url";
 import path from "path";
-import {
-  Client,
-  GatewayIntentBits,
-  AttachmentBuilder,
-  EmbedBuilder,
-  REST,
-  Routes,
-} from "discord.js";
-import dotenv from "dotenv";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
